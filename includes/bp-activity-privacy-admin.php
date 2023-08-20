@@ -514,19 +514,20 @@ class BPActivityPrivacy_Admin {
 				right: 0px;
 				padding-top: 190px;
 				height: 25px;
-				width: 173px;
+				width: 150px;
 				color: #555;
 				font-weight: bold;
 				font-size: 11px;
 				text-align: center;
 				margin: 0px -5px;
-				background: url('<?php echo BP_ACTIVITY_PRIVACY_PLUGIN_URL; ?>includes/images/badge.png') no-repeat scroll 0% 0% transparent;
+				background: url('<?php echo BP_ACTIVITY_PRIVACY_PLUGIN_URL; ?>includes/images/badge2.png') no-repeat scroll 0% 0% transparent;
+				background-size: 80%;
 			}
 		</style>
 		<div class="wrap about-wrap">
 			<h1><?php printf( __( 'Welcome to BuddyPress Activity Privacy %s', 'bp-activity-privacy' ), $display_version ); ?></h1>
-			<div class="about-text"><?php printf( __( 'Thank you for upgrading to the latest version of BP Activity Privacy! <br \> BP Activity Privacy %s is ready to manage the activity privacy of your Site!', 'bp-activity-privacy' ), $display_version ); ?></div>
-			<div class="bpap-admin-badge" style=""><?php printf( __( 'Version %s', 'bp-activity-privacy' ), $display_version ); ?></div>
+			<div class="about-text"><?php printf( __( 'Thank you for upgrading to the latest version of BP Activity Privacy! <br \> BP Activity Privacy %s is ready to manage the activity privacy of your site!', 'bp-activity-privacy' ), $display_version ); ?></div>
+			<div class="bpap-admin-badge" style=""></div>
 
 			<div class="warning-text" style="color:red;font-weight:bold;text-align:center;"><?php _e( 'Please go to BP Acitivity Privacy Configuration and save your settings to apply new update.', 'bp-activity-privacy'  ); ?></div>
 
@@ -546,7 +547,7 @@ class BPActivityPrivacy_Admin {
 			</div>
 
 			<div class="changelog">
-				<h3><?php printf( __( 'What&#39; new in %s ?', 'bp-activity-privacy' ), $display_version ); ?></h3>
+				<h3><?php printf( __( 'What&#39;s new in %s?', 'bp-activity-privacy' ), $display_version ); ?></h3>
 
 				<div class="feature-section">
 					<ul>
@@ -569,7 +570,7 @@ class BPActivityPrivacy_Admin {
 			</div>
 
 			<div class="changelog">
-				<h3><?php _e( 'How it\'s Work ?' , 'bp-activity-privacy' ); ?></h3>
+				<h3><?php _e( 'How does it work?' , 'bp-activity-privacy' ); ?></h3>
 
 				<div class="feature-section images-stagger-right">
 					<img alt="" src="<?php echo BP_ACTIVITY_PRIVACY_PLUGIN_URL;?>/screenshot-1.png" class="image-50" />
