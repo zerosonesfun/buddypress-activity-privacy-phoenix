@@ -1,9 +1,9 @@
 === BuddyPress Activity Privacy ===
-Contributors: megainfo
+Contributors: megainfo, Boone Gorges, Billy Wilcosky
 Tags: buddypress,activity,privacy,visibility,stream,private,public,only me,admins only,friends, followers,vie privée,confidentialité
 Requires at least: WordPress 3.4, BuddyPress 1.5
-Tested up to: WordPress 4.3.1 / BuddyPress 2.4.0
-Stable tag: 1.3.8-SNAPSHOT
+Tested up to: WordPress 6.3 / BuddyPress 11.2.0
+Stable tag: 1.4
 
 
 == Description ==
@@ -13,7 +13,7 @@ BuddyPress Activity Privacy plugin add a privacy level to activity stream compon
 The plugin add the ability for members to choose who can read his activity (Anyone, Logged In Users, My Friends, Admins Only, Only me, My Friends in Group , Group Members ...etc). 
 
 
-= What's news In Buddypress Activity Privacy 1.3.x ? = 
+= What's new in Buddypress Activity Privacy since 1.3.x ? = 
 
 - Admin have abitility to enable/disable FontAwsome icons.
 
@@ -43,7 +43,7 @@ Remark: Members mentioned in activity can see it's content whatever the privacy 
 - Admin Option Area, Admin can update Enable/Disable privacy level, Sort the privacy levels and change the default privacy level. 
 
 
-What's news In Buddypress Activity Privacy 1.x ?
+What's new in Buddypress Activity Privacy 1.x ?
 
 - Members can now change the privacy of the activity already posted.
 - Admins can update the privacy of all activities. 
@@ -85,6 +85,15 @@ Or In GitHub
 https://github.com/dzmounir/buddypress-activity-privacy
 
 == Changelog ==
+
+= 1.4 =
+- Tested with BuddyPress 11.2 and WordPress 6.3
+- Cleaned up comments and formatting for loader.php file
+- Adjusted verbiage on plugin's about page
+- Adjusted verbiage in readme.txt file
+- Updated badge image on about page to minimal padlock
+- Increased version to 1.4 as a way to clearly delineate when I started making changes
+- Slight name change so that WordPress treats this like a new plugin so that it does not think you need to update to one of the previous versions
 
 = 1.3.8-SNAPSHOT = 
 - Fix issue on privacy select option, click not work. 
