@@ -1,5 +1,7 @@
 # BuddyPress Activity Privacy (Phoenix)
 
+![lock](includes/images/badge2.png)
+
 An attempt to make the original BuddyPress Activity Privacy plugin rise from the ashes like a Phoenix.
 
 BuddyPress Activity Privacy plugin adds a privacy level to the activity stream component. The plugin adds the ability for members to choose who can read their activity (Anyone, Logged In Users, My Friends, Admins Only, Only me, My Friends in Group, Group Members, etc.).
